@@ -3,9 +3,9 @@
         <title>@yield('title')</title>
         <meta name="description" content="@yield('meta-description')">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
         <header>
@@ -17,29 +17,29 @@
                    <section class="full-size-image" style='background-image: url("/imgs/jesus-crucified.jpg");'>
 
                     <div class="center-content">
-                        <h2>{{Route::currentRouteName()}}</h2>
+                        <h1>{{Route::currentRouteName()}}</h1>
                         <p>Do not fear what you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation. Be faithful unto death, and I will give you the crown of life. <br>- Revelations 2:10</p>
-                        <button class="btn btn-primary">Donate to Fight Christian Discrimination</button>
+                        <a href="/donate-to-fight-christian-discrimination"><button class="btn btn-primary">Donate to Fight Christian Discrimination</button></a>
                     </div>
                 @elseif(Request::is('know-christ'))
                       <section class="full-size-image" style='background-image: url("/imgs/jesus-whipped.jpg");'>
 
                      <div class="center-content">
-                         <h2>{{Route::currentRouteName()}}</h2>
+                         <h1>{{Route::currentRouteName()}}</h1>
                          <p>Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. <br>- Matthew 5: 11</p>
                      </div>
                 @elseif(Request::is('persecution-of-christians'))
                       <section class="full-size-image" style='background-image: url("/imgs/christian-discriminization.jpg");'>
 
                      <div class="center-content">
-                         <h2>{{Route::currentRouteName()}}</h2>
+                         <h1>{{Route::currentRouteName()}}</h1>
                          <p>I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained. <br>– Revelation 6:9</p>
                      </div>
                 @elseif(Request::is('donate-to-fight-christian-discrimination'))
                       <section class="full-size-image" style='background-image: url("/imgs/christian-arrested.jpg");'>
 
                      <div class="center-content">
-                         <h2>{{Route::currentRouteName()}}</h2>
+                         <h1>{{Route::currentRouteName()}}</h1>
                          <p>And you will be hated by all for my name's sake. But the one who endures to the end will be saved. <br>- Matthew 10:22</p>
                      </div>
                 @endif
@@ -47,7 +47,7 @@
         
                 </div>
             </section>
-            <section class="container content">
+            <section class="content">
                 @yield('content')
             </section>
         </main>
