@@ -1,4 +1,6 @@
 @extends('frontend.layouts.app')
+@section('title', 'Wonderful Works Of Jesus')
+@section('meta-description', 'Jesus Lives Here')
 @section('content')
         <h2 class="text-center">Christ of Christianity</h2>
         <p>It may sound obvious, yet many people fail to recognise that the true key to understanding Christianity is contained in the very word itself, CHRIST-ianity. The key to understanding Christianity is understanding Christ.</p>
