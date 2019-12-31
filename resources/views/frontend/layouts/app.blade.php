@@ -43,7 +43,7 @@
                          <p>And you will be hated by all for my name's sake. But the one who endures to the end will be saved. <br>- Matthew 10:22</p>
                      </div>
                 @endif
-                <div class="full-size-image-overlay">
+                <div class="image-overlay">
         
                 </div>
             </section>

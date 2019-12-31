@@ -135,14 +135,15 @@ table {
   border-spacing: 0;
 }
 
-main .full-size-image {
+.full-size-image {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   position: relative;
 }
 
-main .full-size-image-overlay {
+.image-overlay {
   position: absolute;
   height: inherit;
   width: 100%;
@@ -158,6 +159,13 @@ main .full-size-image-overlay {
           transform: translate(-50%, -50%);
   color: #fff;
   z-index: 10000;
+}
+
+.bg-md-image {
+  position: relative;
+  height: 300px;
+  background: url(/images/know-christ.jpg?0685233fe4e638fdfaa34ce0bff47479) no-repeat center;
+  background-size: cover;
 }
 
 blockquote {
@@ -223,7 +231,7 @@ ol {
 }
 
 ol li {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 }
 
 p {

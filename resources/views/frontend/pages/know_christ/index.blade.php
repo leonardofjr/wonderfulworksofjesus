@@ -18,6 +18,15 @@
                 <li>Jesus claimed to be the Christ. (Mark 14:61-62 NIV)</li>
             </ol>
         </section>
+        <section class="bg-md-image">
+            <div class="center-content">
+                <p class="h3"> “In the beginning was the Word, and the Word was with God, and the Word was God…the Word became flesh and dwelt among us. We beheld His glory, the glory of the one and only Son, who came from the Father, full of grace and truth…” <br> John 1:1, 14 NIV
+                </p>
+            </div>
+            <div class="image-overlay">
+                    
+            </div>
+        </section>
         <section class="container my-5">
             <h2 class="text-center">The Gospel</h2>
             <p>The term ‘gospel’ simply means ‘good news’. When we fully understand the gospel, however, we begin to realise that it is far more than good news – it is astonishing news that has the ability to transform our lives! The gospel is of first importance. It is the prime thing. The cross of Christ is at the centre of our faith and without the cross, we have nothing. The message of the cross is not the basic thing – it is the essential thing. The story of the Bible is the good news of what Jesus has done to restore our intended relationship with God.</p>
@@ -32,6 +41,16 @@
             <h3>4. OUR RESTORATION</h3>
             <p>The gospel is about restoring us back to the original plan as people who have a relationship with God. Restoration brings us back to a life of worship and prayer, healing and wholeness, faith and hope, purpose and destiny. As we look to the Scriptures we find that God progressively empowers and equips us to live a life of fruitfulness.</p>
             <p>The confidence that we have in this process of restoration is that we did not start it and we cannot finish it. Christ came looking for us. Christ took the initiative to restore us back to the original plan. That is why Paul could say that he was confident in this:</p>
+        </section>
+
+        <section class="bg-md-image">
+            <div class="center-content">
+                <p class="h3"> “…the He who began a good ork in you will carry it on to completion until the day of Christ Jesus.” <br>Philippians 1:6 NIV
+                </p>
+            </div>
+            <div class="image-overlay">
+                    
+            </div>
         </section>
 
         <section class="container my-5">
