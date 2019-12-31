@@ -72,3 +72,16 @@ main .full-size-image-overlay {
     z-index: 10000;
 
 }
+
+blockquote {
+    margin: 3rem 0 3rem 0!important;
+    padding: 1.8rem;
+
+    p {
+        margin: 0;
+    }
+}
+
+.blockquote-bg {
+    background-color: #eee;
+}
