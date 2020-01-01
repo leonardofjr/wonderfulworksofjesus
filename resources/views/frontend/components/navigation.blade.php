@@ -12,7 +12,7 @@
           $nav_items = [
            "know-christ"  =>  "Know Christ",
            "persecution-of-christians"  =>  "Perecutions of Christians",
-           "donate-to-fight-christian-discrimination"  =>  "Donate"
+           "donate-to-fight-christian-discrimination"  =>  "Donate to Fight Christian Persecution"
           ]  
         ?>
         @foreach ($nav_items as $route_path => $nav_item)

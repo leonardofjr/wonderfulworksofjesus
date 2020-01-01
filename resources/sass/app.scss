@@ -1,9 +1,24 @@
-//
+/*** Reset ***/
 @import './reset.scss';
+
+/*** Variables ***/
 @import './helpers/variables.scss';
+
+/*** Mixins ***/
 @import './helpers/mixins.scss';
+
+
+/*** Default Values ***/
 @import './base.scss';
-@import './frontend/pages/home.scss';
-@import './frontend/components/navigation.scss';
 @import './buttons.scss';
 @import './typography.scss';
+
+/*** Layout ***/
+@import './frontend/layout/footer.scss';
+
+/*** Components ***/
+@import './frontend/components/navigation.scss';
+
+/*** Pages ***/
+@import './frontend/pages/home.scss';
+

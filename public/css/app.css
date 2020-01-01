@@ -1,3 +1,5 @@
+/*** Reset ***/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -135,6 +137,12 @@ table {
   border-spacing: 0;
 }
 
+/*** Variables ***/
+
+/*** Mixins ***/
+
+/*** Default Values ***/
+
 .full-size-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,36 +267,6 @@ blockquote p {
   margin-bottom: 5rem !important;
 }
 
-.navbar {
-  position: absolute !important;
-  z-index: 100000;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.8);
-}
-
-@media (min-width: 992px) {
-  .navbar {
-    background: rgba(0, 0, 0, 0);
-  }
-}
-
-.navbar .navbar-brand {
-  width: 60%;
-}
-
-.navbar a {
-  color: #fff;
-}
-
-.navbar .navbar-toggler {
-  color: white;
-  border-color: white;
-}
-
-.navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-}
-
 .btn-primary {
   background-color: rgba(255, 255, 255, 0) !important;
   border-color: #fff !important;
@@ -309,6 +287,11 @@ h6 {
   margin-bottom: 0.8rem;
   font-weight: 600;
   line-height: 1.2;
+}
+
+strong,
+b {
+  font-weight: 600;
 }
 
 ol {
@@ -346,4 +329,46 @@ h5 {
 h6 {
   font-size: 1em;
 }
+
+/*** Layout ***/
+
+footer {
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+}
+
+/*** Components ***/
+
+.navbar {
+  position: absolute !important;
+  z-index: 100000;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
+.navbar .navbar-brand {
+  width: 60%;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+/*** Pages ***/
 
