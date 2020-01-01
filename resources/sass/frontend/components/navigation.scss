@@ -1,8 +1,12 @@
 .navbar {
     position: absolute!important;
-    z-index: 10000;
+    z-index: 100000;
     width: 100%;
-    
+
+    background: rgba(0, 0, 0, .8);
+    @include breakpoint(md) {
+        background: rgba(0, 0, 0, 0);
+    }
     .navbar-brand {
         width: 60%;
     }

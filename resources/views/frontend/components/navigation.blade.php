@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-xl">
     <a class="navbar-brand" href="/">
     <img class="img-fluid" src="{{asset('imgs/logo.png')}}" alt="Logo of {{env('APP_NAME')}}">
     </a>

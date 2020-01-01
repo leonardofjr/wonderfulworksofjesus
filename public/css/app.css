@@ -261,8 +261,15 @@ blockquote p {
 
 .navbar {
   position: absolute !important;
-  z-index: 10000;
+  z-index: 100000;
   width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0);
+  }
 }
 
 .navbar .navbar-brand {
