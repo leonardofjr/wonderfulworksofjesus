@@ -1,5 +1,7 @@
 //
 @import './reset.scss';
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
 @import './base.scss';
 @import './frontend/pages/home.scss';
 @import './frontend/components/navigation.scss';

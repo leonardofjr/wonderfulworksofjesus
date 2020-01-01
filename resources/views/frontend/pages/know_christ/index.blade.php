@@ -18,7 +18,7 @@
                 <li>Jesus claimed to be the Christ. (Mark 14:61-62 NIV)</li>
             </ol>
         </section>
-        <section class="bg-md-image">
+        <section class="bg-md-image" style='background-image: url("imgs/jesus-carrying-cross.png")' alt="An image of Jesus carrying the cross.">
             <div class="center-content">
                 <p class="h3"> “In the beginning was the Word, and the Word was with God, and the Word was God…the Word became flesh and dwelt among us. We beheld His glory, the glory of the one and only Son, who came from the Father, full of grace and truth…” <br> John 1:1, 14 NIV
                 </p>
@@ -43,7 +43,7 @@
             <p>The confidence that we have in this process of restoration is that we did not start it and we cannot finish it. Christ came looking for us. Christ took the initiative to restore us back to the original plan. That is why Paul could say that he was confident in this:</p>
         </section>
 
-        <section class="bg-md-image">
+        <section class="bg-md-image" style='background-image: url("imgs/jesus-on-the-cross.png")' alt="An image of Jesus on the cross and being observed by many people.">
             <div class="center-content">
                 <p class="h3"> “…the He who began a good ork in you will carry it on to completion until the day of Christ Jesus.” <br>Philippians 1:6 NIV
                 </p>

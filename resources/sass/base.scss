@@ -6,6 +6,56 @@
     position: relative;
 }
 
+
+.full-size-image-1 {
+    @include breakpoint(xs-portrait) {
+         background-image: url("/imgs/jesus-crucified-mobile-portrait.png");
+    }
+    @include breakpoint(xs-landscape) {
+         background-image: url("/imgs/jesus-crucified-mobile-landscape.png");
+    }
+    @include breakpoint(md) {
+        background-image: url("/imgs/jesus-crucified.png");
+    }
+}
+
+.full-size-image-2 {
+    @include breakpoint(xs-portrait) {
+         background-image: url("/imgs/jesus-whipped-mobile-portrait.png");
+    }
+    @include breakpoint(xs-landscape) {
+         background-image: url("/imgs/jesus-whipped-mobile-landscape.png");
+    }
+    @include breakpoint(md) {
+        background-image: url("/imgs/jesus-whipped.png");
+    }
+}
+
+.full-size-image-3 {
+    @include breakpoint(xs-portrait) {
+         background-image: url("/imgs/christian-discriminization-mobile-portrait.png");
+    }
+    @include breakpoint(xs-landscape) {
+         background-image: url("/imgs/christian-discriminization-mobile-landscape.png");
+    }
+    @include breakpoint(md) {
+        background-image: url("/imgs/christian-discriminization.png");
+    }
+}
+
+.full-size-image-4 {
+    @include breakpoint(xs-portrait) {
+         background-image: url("/imgs/christian-arrested-mobile-portrait.png");
+    }
+    @include breakpoint(xs-landscape) {
+         background-image: url("/imgs/christian-arrested-mobile-landscape.png");
+    }
+    @include breakpoint(md) {
+        background-image: url("/imgs/christian-arrested.png");
+    }
+}
+
+
 .image-overlay {
     position: absolute;
     height: inherit;
@@ -25,7 +75,10 @@
 }
 
 .bg-md-image {
-    position: relative; height: 300px; background: url("imgs/know-christ.jpg")  no-repeat center; background-size: cover;
+    position: relative; height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 blockquote {
@@ -39,4 +92,9 @@ blockquote {
 
 .blockquote-bg {
     background-color: #eee;
+}
+
+.my-5 {
+    margin-top: 5rem!important;
+    margin-bottom: 5rem!important;
 }

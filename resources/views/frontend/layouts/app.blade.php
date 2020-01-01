@@ -14,29 +14,29 @@
         <main>
             <!-- Full Cover Page Image will be set according to the corresponding request -->
                 @if (Request::is('/'))
-                   <section class="full-size-image" style='background-image: url("/imgs/jesus-crucified.jpg");'>
+                   <section class="full-size-image full-size-image-1">
 
                     <div class="center-content">
                         <h1>{{Route::currentRouteName()}}</h1>
-                        <p>Do not fear what you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation. Be faithful unto death, and I will give you the crown of life. <br>- Revelations 2:10</p>
-                        <a href="/donate-to-fight-christian-discrimination"><button class="btn btn-primary">Donate to Fight Christian Discrimination</button></a>
+                        <p class="my-4">Do not fear what you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation. Be faithful unto death, and I will give you the crown of life. <br>- Revelations 2:10</p>
+                        <a href="/donate-to-fight-christian-discrimination"><button class="btn btn-primary" style="font-size:1.8em;">Donate to Fight Christian Discrimination</button></a>
                     </div>
                 @elseif(Request::is('know-christ'))
-                      <section class="full-size-image" style='background-image: url("/imgs/jesus-whipped.jpg");'>
+                   <section class="full-size-image full-size-image-2">
 
                      <div class="center-content">
                          <h1>{{Route::currentRouteName()}}</h1>
                          <p>Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. <br>- Matthew 5: 11</p>
                      </div>
                 @elseif(Request::is('persecution-of-christians'))
-                      <section class="full-size-image" style='background-image: url("/imgs/christian-discriminization.jpg");'>
+                    <section class="full-size-image full-size-image-3">
 
                      <div class="center-content">
                          <h1>{{Route::currentRouteName()}}</h1>
                          <p>I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained. <br>– Revelation 6:9</p>
                      </div>
                 @elseif(Request::is('donate-to-fight-christian-discrimination'))
-                      <section class="full-size-image" style='background-image: url("/imgs/christian-arrested.jpg");'>
+                    <section class="full-size-image full-size-image-4">
 
                      <div class="center-content">
                          <h1>{{Route::currentRouteName()}}</h1>

@@ -2,11 +2,11 @@
 @section('title', 'Wonderful Works Of Jesus')
 @section('meta-description', 'Jesus Lives Here')
 @section('content')
-    <section class="container">
+    <section class="container my-5">
         <p>Below, we share a quick glance at the numbers during the 2019 reporting period (from Oct. 31, 2017, to November 1, 2018). But by no means do the numbers tell the full story. Each fact and figure represent real people with real lives, families, jobs, churches—fathers, mothers, husbands, wives, sons, daughters—who every day make the dangerous choice to believe in and trust Jesus.</p>
     </section>
 
-    <section class="container">
+    <section class="container my-5">
         <div>
             </p><h3>In a Year</h3>
             <p><strong>245 Million:</strong> In the top 50 World Watch List countries alone, 245 million Christians in the world experience high levels of persecution for their choice to follow Christ.</p>
